@@ -1,0 +1,11 @@
+pde_dataset:
+  path_test:      "/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/datasets_kinetic/Boltzmann_3D/biMaxwellian/coeff7.96e-02/__res064__split_for_20"
+  exp_speed:      [0.00, 0.25, 0.50, 0.75, 1.00]
+  resolution:     64
+  test_part:      [1]
+  num_time_steps: 51
+
+
+##################################################
+##################################################
+# End of file

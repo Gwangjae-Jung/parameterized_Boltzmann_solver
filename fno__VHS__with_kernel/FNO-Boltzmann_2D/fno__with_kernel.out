@@ -1,0 +1,57 @@
+Random seed: 10
+* The device to be used >>> cuda:1
+The size of the training dataset >>> 3000
+The shape of the training dataset >>> torch.Size([3000, 51, 32, 32, 1])
+The size of the validation dataset >>> 600
+The shape of the validation dataset >>> torch.Size([600, 51, 32, 32, 1])
+The number of the parameters in the models
+>>> 1226273
+
+[ Epoch 1 / 1000 | coeff_cons: 0.0000e+00 , lr: 9.7553e-05]
+# Best model: epoch 1 (6.6711e-03 | 2.1845e-03)
+* [train] Relative error: 7.7347e-03 | 2.1480e-02
+* [valid] Relative error: 6.6711e-03 | 2.1845e-03
+
+
+
+[ Epoch 2 / 1000 | coeff_cons: 5.0000e-02 , lr: 9.0451e-05]
+# Best model: epoch 1 (6.6711e-03 | 2.1845e-03)
+* [train] Relative error: 7.1736e-03 | 8.8810e-03
+* [valid] Relative error: 6.0916e-03 | 4.1558e-03
+
+
+
+[ Epoch 3 / 1000 | coeff_cons: 9.5000e-02 , lr: 7.9389e-05]
+# Best model: epoch 1 (6.6711e-03 | 2.1845e-03)
+* [train] Relative error: 6.2951e-03 | 1.1054e-02
+* [valid] Relative error: 5.1156e-03 | 1.9961e-02
+
+
+
+[ Epoch 4 / 1000 | coeff_cons: 1.3550e-01 , lr: 6.5451e-05]
+# Best model: epoch 4 (4.3246e-03 | 3.1415e-03)
+* [train] Relative error: 5.1600e-03 | 6.5658e-03
+* [valid] Relative error: 4.3246e-03 | 3.1415e-03
+
+
+
+[ Epoch 5 / 1000 | coeff_cons: 1.7195e-01 , lr: 5.0000e-05]
+# Best model: epoch 5 (3.8858e-03 | 2.2105e-03)
+* [train] Relative error: 4.4794e-03 | 4.4909e-03
+* [valid] Relative error: 3.8858e-03 | 2.2105e-03
+
+
+
+[ Epoch 6 / 1000 | coeff_cons: 2.0476e-01 , lr: 3.4549e-05]
+# Best model: epoch 5 (3.8858e-03 | 2.2105e-03)
+* [train] Relative error: 4.0824e-03 | 5.4634e-03
+* [valid] Relative error: 3.6024e-03 | 3.5892e-03
+
+
+
+[ Epoch 7 / 1000 | coeff_cons: 2.3428e-01 , lr: 2.0611e-05]
+# Best model: epoch 5 (3.8858e-03 | 2.2105e-03)
+* [train] Relative error: 3.8265e-03 | 2.0653e-03
+* [valid] Relative error: 3.4482e-03 | 2.7006e-03
+
+

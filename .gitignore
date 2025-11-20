@@ -1,0 +1,13 @@
+__pycache__/
+BACKUP__FNO_for_VHS/
+/BACKUP__FNO_for_VHS.zip
+
+datasets_kinetic/
+datasets_kinetic__cpu/
+
+fno__maxwellian/
+fno__hard_sphere/
+
+**/*.pth
+**/*.pickle
+**/legacy/
