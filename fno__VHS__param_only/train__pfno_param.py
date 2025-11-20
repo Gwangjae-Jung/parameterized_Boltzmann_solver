@@ -74,8 +74,8 @@ print(
     sep     = '\n',
 )
 print(f"* Random seed: {RANDOM_SEED}")
-print(f"* The device to be used >>> {torch.cuda.get_device_name()} ({DEVICE})")
-sys.stdout.flush()
+print(f"* The device to be used: {torch.cuda.get_device_name()} ({DEVICE})")
+print(flush=True)
 
 
 
@@ -128,11 +128,11 @@ torch.save(normalizer, PATH_BEST_MODEL/"normalizer.pth")
 for k in normalizer.keys():
     normalizer[k].to(DEVICE)
 
-print(f"The size of the training dataset >>>", TRAIN_SIZE, sep=' ')
-print(f"The shape of the training dataset >>>", train_data[k_in].shape, sep=' ')
-print(f"The size of the validation dataset >>>", VAL_SIZE, sep=' ')
-print(f"The shape of the validation dataset >>>", val_data[k_in].shape, sep=' ')
-sys.stdout.flush()
+print(f"The size of the training dataset    >>> {TRAIN_SIZE}")
+print(f"The shape of the training dataset   >>> {list(train_data[k_in].shape)}")
+print(f"The size of the validation dataset  >>> {VAL_SIZE}")
+print(f"The shape of the validation dataset >>> {list(val_data[k_in].shape)}")
+print(flush=True)
 
 
 
@@ -162,8 +162,8 @@ optimizer = torch.optim.Adam(params=model.parameters(), lr=LEARNING_RATE)
 lr_lambda = exponential_cosine(period=args.lr_period, half_life=float('inf'))
 scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, lr_lambda=lr_lambda)
 
-print(f"The number of the parameters in the models\n>>> {count_parameters(model)}")
-sys.stdout.flush()
+print(f"The number of the parameters in the models >>> {count_parameters(model)}")
+print(flush=True)
 
 
 

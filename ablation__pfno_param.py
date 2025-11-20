@@ -1,3 +1,5 @@
+import  argparse
+
 import  sys
 import  subprocess
 from    pathlib             import  Path
@@ -7,8 +9,12 @@ from    ablation__config    import  *
 MODEL_NAME      = "PFNO"
 BASE_PATH       = Path(__file__).parent / "fno__VHS__param_only"
 RUNFILE_PATH    = BASE_PATH / f"train__{MODEL_NAME.lower()}_param.py"
-CUDA_INDEX      = 2
 IN_CHANNELS     = 1
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--cuda_index", type=int, help="The CUDA device to be used.")
+args = parser.parse_args()
 
 
 sys.stdout = open(BASE_PATH/f"{MODEL_NAME}{DIMENSION}D-param__ablation.txt", "w")
@@ -22,7 +28,7 @@ for n_modes in SET_N_MODES:
             "--num_epochs",     str(NUM_EPOCHS),
             "--batch_size",     str(BATCH_SIZE),
             "--learning_rate",  str(LEARNING_RATE),
-            "--cuda_index",     str(CUDA_INDEX),
+            "--cuda_index",     str(args.cuda_index),
             
             "--path_train",     str(PATH_TRAIN),
             "--path_val",       str(PATH_VAL),
