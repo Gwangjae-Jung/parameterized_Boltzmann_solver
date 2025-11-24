@@ -10,4 +10,7 @@ fno__hard_sphere/
 
 **/*.pth
 **/*.pickle
-**/legacy/
+**/*legacy*
+**/*DEPRECATED*
+**/*legacy*/
+**/*DEPRECATED*/

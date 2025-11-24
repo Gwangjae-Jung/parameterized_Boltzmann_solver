@@ -1,0 +1,3 @@
+Running RFNO2D with [max_freq=6]
+Running RFNO2D with [max_freq=8]
+Running RFNO2D with [max_freq=10]

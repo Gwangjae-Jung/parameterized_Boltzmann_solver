@@ -1,0 +1,3 @@
+Running FNO2D with [n_modes=(13, 13)]
+Running FNO2D with [n_modes=(17, 17)]
+Running FNO2D with [n_modes=(21, 21)]

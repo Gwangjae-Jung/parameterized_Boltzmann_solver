@@ -1,11 +1,12 @@
 DIMENSION       = 2
-SET_MAX_FREQ    = [6, 8, 10, 9, 7]
+SET_MAX_FREQ    = [8, 6, 10]
 SET_N_MODES     = [tuple((2*max_freq+1 for _ in range(DIMENSION))) for max_freq in SET_MAX_FREQ]
+SET_N_LAYERS    = [4, 3, 5, 6]
 
 
 #####< Experiment parameters >#####
 SEED            = 0
-NUM_EPOCHS      = 1
+NUM_EPOCHS      = 1000
 BATCH_SIZE      = 1024
 LEARNING_RATE   = 1e-4
 

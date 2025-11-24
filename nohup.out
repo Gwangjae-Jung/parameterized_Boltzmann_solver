@@ -1,0 +1,9 @@
+python: can't open file '/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/run_with_cuda1.py': [Errno 2] No such file or directory
+Run [ablation__fno_param.py] with [cuda:0]
+Run [ablation__rfno_param.py] with [cuda:0]
+Run [ablation__pfno_param.py] with [cuda:1]
+Run [ablation__prfno_param.py] with [cuda:1]
+Run [ablation__fno_param.py] with [cuda:0]
+Run [ablation__rfno_param.py] with [cuda:1]
+Run [ablation__prfno_param.py] with [cuda:3]
+Run [ablation__pfno_param.py] with [cuda:2]
