@@ -5,7 +5,7 @@ SET_N_LAYERS    = [4, 3, 5, 6]
 
 
 #####< Experiment parameters >#####
-SEED            = 0
+SEED            = 1
 NUM_EPOCHS      = 1000
 BATCH_SIZE      = 1024
 LEARNING_RATE   = 1e-4

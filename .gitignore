@@ -12,5 +12,8 @@ fno__hard_sphere/
 **/*.pickle
 **/*legacy*
 **/*DEPRECATED*
+**/*DEPRECATED*/
+**/*IGNORE*
+**/*IGNORE*/
 **/*legacy*/
 **/*DEPRECATED*/
