@@ -4,7 +4,7 @@ for file in (
         # "ablation__fno_param.py",
         # "ablation__rfno_param.py",
         # "ablation__pfno_param.py",
-        "ablation__prfno_param.py",
+        # "ablation__prfno_param.py",
     ):
     print(f"Run [{file}] with [cuda:{CUDA_INDEX}]")
     subprocess.run(

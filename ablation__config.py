@@ -5,7 +5,7 @@ SET_N_LAYERS    = [4, 3, 5, 6]
 
 
 #####< Experiment parameters >#####
-SEED            = 1
+SEED            = 2
 NUM_EPOCHS      = 1000
 BATCH_SIZE      = 1024
 LEARNING_RATE   = 1e-4
@@ -30,6 +30,7 @@ NUM_TIME_STEPS      = 51
 
 
 #####< Model parameters >#####
+# `IN_CHANNELS` should be specified for each model
 HIDDEN_CHANNELS     = 32
 OUT_CHANNELS        = 1
 

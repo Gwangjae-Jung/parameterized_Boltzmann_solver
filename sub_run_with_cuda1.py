@@ -2,7 +2,7 @@ import  subprocess
 CUDA_INDEX = 1
 for file in (
         # "ablation__fno_param.py",
-        "ablation__rfno_param.py",
+        # "ablation__rfno_param.py",
         # "ablation__pfno_param.py",
         # "ablation__prfno_param.py",
     ):
