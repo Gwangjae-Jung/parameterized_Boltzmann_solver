@@ -14,9 +14,9 @@ from    torch.utils.data            import  TensorDataset, DataLoader
 
 from    deep_numerical.utils                import  get_time_str
 from    deep_numerical.utils                import  GaussianNormalizer
-from    deep_numerical.utils                import  count_parameters, initialize_weights
+from    deep_numerical.neural.utils         import  count_parameters, initialize_weights
 from    deep_numerical.utils                import  relative_error
-from    deep_numerical.neuralop.para_fno    import  PFNO
+from    deep_numerical.neural.operator.para_fno    import  PFNO
 
 from    train_utils         import  load_data, exponential_cosine
 from    train_utils         import  LossFunctions
