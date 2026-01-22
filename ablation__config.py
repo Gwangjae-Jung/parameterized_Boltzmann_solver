@@ -14,17 +14,17 @@ LEARNING_RATE   = 1e-4
 #####< Dataset parameters >#####
 RESOLUTION_TRAIN    = 32
 RESOLUTION_VAL      = 32
-RESOLUTION_TEST     = 32
+RESOLUTION_TEST     = 64
 PATH_TRAIN          = \
     rf"/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/datasets_kinetic/Boltzmann_2D/biMaxwellian/coeff1.59e-01/res{str(RESOLUTION_TRAIN).zfill(3)}"
 PATH_VAL            = \
     rf"/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/datasets_kinetic/Boltzmann_2D/biMaxwellian/coeff1.59e-01/res{str(RESOLUTION_VAL).zfill(3)}"
-PATH_TEST           = \
-    rf"/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/datasets_kinetic/Boltzmann_2D/biMaxwellian/coeff1.59e-01/res{str(RESOLUTION_TEST).zfill(3)}"
+PATH_TEST           = None
+    # rf"/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/datasets_kinetic/Boltzmann_2D/biMaxwellian/coeff1.59e-01/res{str(RESOLUTION_TEST).zfill(3)}"
 EXP_SPEED           = [0.0, 0.25, 0.5, 0.75, 1.0]
-TRAIN_PART          = list(range(1, 11))
-VAL_PART            = list(range(11, 13))
-TEST_PART           = list(range(1, 10))
+TRAIN_PART          = list(range(1, 11))    # 1~10
+VAL_PART            = list(range(11, 13))   # 11~12
+TEST_PART           = list(range(1, 10))    # 1~9
 DOWNSAMPLE          = 1
 NUM_TIME_STEPS      = 51
 
