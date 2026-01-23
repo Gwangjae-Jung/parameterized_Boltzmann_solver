@@ -47,9 +47,11 @@ def load_data(
         directory = Path(directory)
 
     def _get_file_name(res: int, a: float, p: int) -> str:
-        res = str(res).zfill(3)
+        # res = str(res).zfill(3)
+        # p   = str(p).zfill(size_zfill)
+        # return f"res{res}__alpha{a:.1e}__part{p}.pth"
         p   = str(p).zfill(size_zfill)
-        return f"res{res}__alpha{a:.1e}__part{p}.pth"
+        return f"alpha{a:.2f}__part{p}.pth"
         
     files = [
         torch.load(

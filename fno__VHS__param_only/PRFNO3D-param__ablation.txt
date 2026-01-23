@@ -1,0 +1,3 @@
+Running PRFNO3D with [max_freq=8]
+Running PRFNO3D with [max_freq=6]
+Running PRFNO3D with [max_freq=10]

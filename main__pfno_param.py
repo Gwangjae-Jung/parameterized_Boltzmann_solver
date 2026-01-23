@@ -32,7 +32,7 @@ for n_modes in SET_N_MODES:
             
             "--path_train",     str(PATH_TRAIN),
             "--path_val",       str(PATH_VAL),
-            "--path_test",      str(PATH_TEST),
+            "--path_test",      str(None),
             "--exp_speed",      *map(str, EXP_SPEED),
             "--resolution",     str(RESOLUTION_TRAIN),
             "--train_part",     *map(str, TRAIN_PART),
