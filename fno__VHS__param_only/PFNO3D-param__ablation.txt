@@ -1,3 +1,1 @@
 Running PFNO3D with [n_modes=(17, 17, 17)]
-Running PFNO3D with [n_modes=(13, 13, 13)]
-Running PFNO3D with [n_modes=(21, 21, 21)]

@@ -7,8 +7,8 @@ SET_N_LAYERS    = [4, 3, 5, 6]
 
 #####< Experiment parameters >#####
 SEED            = 2
-NUM_EPOCHS      = 1000
-BATCH_SIZE      = 1024 if DIMENSION==2 else 512
+NUM_EPOCHS      = 1000  if DIMENSION==2 else 300
+BATCH_SIZE      = 2**10 if DIMENSION==2 else 2**6
 LEARNING_RATE   = 1e-4
 
 
