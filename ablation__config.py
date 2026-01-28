@@ -1,6 +1,6 @@
 #####< Modifiable options for ablation study >#####
 DIMENSION       = 3
-SET_MAX_FREQ    = [8, 6, 10]
+SET_MAX_FREQ    = [8]
 SET_N_MODES     = [tuple((2*max_freq+1 for _ in range(DIMENSION))) for max_freq in SET_MAX_FREQ]
 SET_N_LAYERS    = [4, 3, 5, 6]
 

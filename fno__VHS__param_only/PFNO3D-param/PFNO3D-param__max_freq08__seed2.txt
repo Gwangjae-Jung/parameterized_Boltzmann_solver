@@ -11,3 +11,2405 @@ The shape of the validation dataset >>> [200, 51, 32, 32, 32, 1]
 
 The number of the parameters in the models >>> 32084417
 
+
+[ Epoch 1/300 ] 637.3s/epoch
+- coeff_cons: 0.0000e+00 , lr: 9.7553e-05
+# Best model: epoch 1 (6.2730e-03 | 8.3258e-02)
+* [train] Relative error: 1.0499e-02 | 1.5329e-01
+* [valid] Relative error: 6.2730e-03 | 8.3258e-02
+
+
+
+[ Epoch 2/300 ] 637.6s/epoch
+- coeff_cons: 5.0000e-02 , lr: 9.0451e-05
+# Best model: epoch 2 (5.2823e-03 | 5.8293e-02)
+* [train] Relative error: 7.2836e-03 | 1.8012e-01
+* [valid] Relative error: 5.2823e-03 | 5.8293e-02
+
+
+
+[ Epoch 3/300 ] 637.7s/epoch
+- coeff_cons: 9.5000e-02 , lr: 7.9389e-05
+# Best model: epoch 2 (5.2823e-03 | 5.8293e-02)
+* [train] Relative error: 4.9693e-03 | 8.8508e-02
+* [valid] Relative error: 4.4876e-03 | 7.3736e-02
+
+
+
+[ Epoch 4/300 ] 637.8s/epoch
+- coeff_cons: 1.3550e-01 , lr: 6.5451e-05
+# Best model: epoch 4 (3.3597e-03 | 1.6798e-02)
+* [train] Relative error: 3.9757e-03 | 6.8974e-02
+* [valid] Relative error: 3.3597e-03 | 1.6798e-02
+
+
+
+[ Epoch 5/300 ] 637.8s/epoch
+- coeff_cons: 1.7195e-01 , lr: 5.0000e-05
+# Best model: epoch 4 (3.3597e-03 | 1.6798e-02)
+* [train] Relative error: 3.3352e-03 | 5.5040e-02
+* [valid] Relative error: 3.0238e-03 | 2.4862e-02
+
+
+
+[ Epoch 6/300 ] 637.8s/epoch
+- coeff_cons: 2.0476e-01 , lr: 3.4549e-05
+# Best model: epoch 4 (3.3597e-03 | 1.6798e-02)
+* [train] Relative error: 3.0201e-03 | 5.2167e-02
+* [valid] Relative error: 3.0460e-03 | 6.4994e-02
+
+
+
+[ Epoch 7/300 ] 637.7s/epoch
+- coeff_cons: 2.3428e-01 , lr: 2.0611e-05
+# Best model: epoch 7 (2.5981e-03 | 1.0042e-02)
+* [train] Relative error: 2.5554e-03 | 2.7092e-02
+* [valid] Relative error: 2.5981e-03 | 1.0042e-02
+
+
+
+[ Epoch 8/300 ] 637.7s/epoch
+- coeff_cons: 2.6085e-01 , lr: 9.5492e-06
+# Best model: epoch 7 (2.5981e-03 | 1.0042e-02)
+* [train] Relative error: 2.3429e-03 | 1.4031e-02
+* [valid] Relative error: 2.5269e-03 | 1.5594e-02
+
+
+
+[ Epoch 9/300 ] 637.7s/epoch
+- coeff_cons: 2.8477e-01 , lr: 2.4472e-06
+# Best model: epoch 9 (2.4497e-03 | 2.7967e-03)
+* [train] Relative error: 2.2477e-03 | 8.0998e-03
+* [valid] Relative error: 2.4497e-03 | 2.7967e-03
+
+
+
+[ Epoch 10/300 ] 637.7s/epoch
+- coeff_cons: 3.0629e-01 , lr: 0.0000e+00
+# Best model: epoch 10 (2.4358e-03 | 2.3282e-03)
+* [train] Relative error: 2.2042e-03 | 2.0516e-03
+* [valid] Relative error: 2.4358e-03 | 2.3282e-03
+
+
+
+[ Epoch 11/300 ] 637.7s/epoch
+- coeff_cons: 3.2566e-01 , lr: 2.4472e-06
+# Best model: epoch 10 (2.4358e-03 | 2.3282e-03)
+* [train] Relative error: 2.2005e-03 | 1.8322e-03
+* [valid] Relative error: 2.4358e-03 | 2.3282e-03
+
+
+
+[ Epoch 12/300 ] 637.7s/epoch
+- coeff_cons: 3.4309e-01 , lr: 9.5492e-06
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.1957e-03 | 2.7678e-03
+* [valid] Relative error: 2.4226e-03 | 1.8990e-03
+
+
+
+[ Epoch 13/300 ] 637.7s/epoch
+- coeff_cons: 3.5879e-01 , lr: 2.0611e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.2060e-03 | 9.7415e-03
+* [valid] Relative error: 2.4020e-03 | 7.8625e-03
+
+
+
+[ Epoch 14/300 ] 637.7s/epoch
+- coeff_cons: 3.7291e-01 , lr: 3.4549e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.2223e-03 | 1.7248e-02
+* [valid] Relative error: 2.3714e-03 | 5.3601e-03
+
+
+
+[ Epoch 15/300 ] 637.7s/epoch
+- coeff_cons: 3.8562e-01 , lr: 5.0000e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.2209e-03 | 2.0805e-02
+* [valid] Relative error: 2.3573e-03 | 8.5607e-03
+
+
+
+[ Epoch 16/300 ] 637.6s/epoch
+- coeff_cons: 3.9705e-01 , lr: 6.5451e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.3034e-03 | 2.7750e-02
+* [valid] Relative error: 2.2971e-03 | 1.2237e-02
+
+
+
+[ Epoch 17/300 ] 637.6s/epoch
+- coeff_cons: 4.0735e-01 , lr: 7.9389e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.4774e-03 | 4.2486e-02
+* [valid] Relative error: 2.3049e-03 | 1.2886e-02
+
+
+
+[ Epoch 18/300 ] 637.6s/epoch
+- coeff_cons: 4.1661e-01 , lr: 9.0451e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.2629e-03 | 3.3726e-02
+* [valid] Relative error: 2.2810e-03 | 9.8717e-03
+
+
+
+[ Epoch 19/300 ] 637.6s/epoch
+- coeff_cons: 4.2495e-01 , lr: 9.7553e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 3.3539e-03 | 7.9650e-02
+* [valid] Relative error: 2.6064e-03 | 2.6063e-02
+
+
+
+[ Epoch 20/300 ] 637.6s/epoch
+- coeff_cons: 4.3246e-01 , lr: 1.0000e-04
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.2810e-03 | 3.3853e-02
+* [valid] Relative error: 2.3188e-03 | 2.0862e-02
+
+
+
+[ Epoch 21/300 ] 637.6s/epoch
+- coeff_cons: 4.3921e-01 , lr: 9.7553e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.2219e-03 | 3.4193e-02
+* [valid] Relative error: 2.1579e-03 | 1.4085e-02
+
+
+
+[ Epoch 22/300 ] 637.6s/epoch
+- coeff_cons: 4.4529e-01 , lr: 9.0451e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.6058e-03 | 5.2282e-02
+* [valid] Relative error: 2.3055e-03 | 2.5894e-02
+
+
+
+[ Epoch 23/300 ] 637.6s/epoch
+- coeff_cons: 4.5076e-01 , lr: 7.9389e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.0436e-03 | 3.1311e-02
+* [valid] Relative error: 2.1654e-03 | 2.9262e-02
+
+
+
+[ Epoch 24/300 ] 637.6s/epoch
+- coeff_cons: 4.5569e-01 , lr: 6.5451e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 2.0144e-03 | 3.2197e-02
+* [valid] Relative error: 2.1816e-03 | 2.2297e-02
+
+
+
+[ Epoch 25/300 ] 637.6s/epoch
+- coeff_cons: 4.6012e-01 , lr: 5.0000e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 1.8262e-03 | 2.3359e-02
+* [valid] Relative error: 2.0098e-03 | 2.0689e-02
+
+
+
+[ Epoch 26/300 ] 637.5s/epoch
+- coeff_cons: 4.6411e-01 , lr: 3.4549e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 1.7307e-03 | 1.9408e-02
+* [valid] Relative error: 2.0666e-03 | 4.0992e-02
+
+
+
+[ Epoch 27/300 ] 637.5s/epoch
+- coeff_cons: 4.6769e-01 , lr: 2.0611e-05
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 1.6578e-03 | 1.8192e-02
+* [valid] Relative error: 1.9757e-03 | 2.8767e-02
+
+
+
+[ Epoch 28/300 ] 637.5s/epoch
+- coeff_cons: 4.7093e-01 , lr: 9.5492e-06
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 1.5591e-03 | 7.6598e-03
+* [valid] Relative error: 1.7722e-03 | 3.7939e-03
+
+
+
+[ Epoch 29/300 ] 637.5s/epoch
+- coeff_cons: 4.7383e-01 , lr: 2.4472e-06
+# Best model: epoch 12 (2.4226e-03 | 1.8990e-03)
+* [train] Relative error: 1.5134e-03 | 3.2755e-03
+* [valid] Relative error: 1.7394e-03 | 5.0722e-03
+
+
+
+[ Epoch 30/300 ] 637.5s/epoch
+- coeff_cons: 4.7645e-01 , lr: 0.0000e+00
+# Best model: epoch 30 (1.7277e-03 | 1.2541e-03)
+* [train] Relative error: 1.4910e-03 | 1.1106e-03
+* [valid] Relative error: 1.7277e-03 | 1.2541e-03
+
+
+
+[ Epoch 31/300 ] 637.5s/epoch
+- coeff_cons: 4.7880e-01 , lr: 2.4472e-06
+# Best model: epoch 30 (1.7277e-03 | 1.2541e-03)
+* [train] Relative error: 1.4853e-03 | 8.3194e-04
+* [valid] Relative error: 1.7277e-03 | 1.2541e-03
+
+
+
+[ Epoch 32/300 ] 637.5s/epoch
+- coeff_cons: 4.8092e-01 , lr: 9.5492e-06
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.4863e-03 | 1.3504e-03
+* [valid] Relative error: 1.7250e-03 | 1.2100e-03
+
+
+
+[ Epoch 33/300 ] 637.5s/epoch
+- coeff_cons: 4.8283e-01 , lr: 2.0611e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.4950e-03 | 5.5086e-03
+* [valid] Relative error: 1.7343e-03 | 1.4222e-03
+
+
+
+[ Epoch 34/300 ] 637.5s/epoch
+- coeff_cons: 4.8455e-01 , lr: 3.4549e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.5741e-03 | 2.0163e-02
+* [valid] Relative error: 1.7258e-03 | 2.4570e-03
+
+
+
+[ Epoch 35/300 ] 637.5s/epoch
+- coeff_cons: 4.8609e-01 , lr: 5.0000e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.5630e-03 | 2.0544e-02
+* [valid] Relative error: 1.7929e-03 | 2.4985e-02
+
+
+
+[ Epoch 36/300 ] 637.5s/epoch
+- coeff_cons: 4.8748e-01 , lr: 6.5451e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.4949e-03 | 1.5459e-02
+* [valid] Relative error: 1.6950e-03 | 9.7400e-03
+
+
+
+[ Epoch 37/300 ] 637.5s/epoch
+- coeff_cons: 4.8874e-01 , lr: 7.9389e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 2.3087e-03 | 4.2813e-02
+* [valid] Relative error: 1.9048e-03 | 1.2395e-02
+
+
+
+[ Epoch 38/300 ] 637.4s/epoch
+- coeff_cons: 4.8986e-01 , lr: 9.0451e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.9741e-03 | 5.6373e-02
+* [valid] Relative error: 1.9236e-03 | 3.1880e-02
+
+
+
+[ Epoch 39/300 ] 637.4s/epoch
+- coeff_cons: 4.9088e-01 , lr: 9.7553e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.9684e-03 | 4.4867e-02
+* [valid] Relative error: 1.9200e-03 | 4.0453e-02
+
+
+
+[ Epoch 40/300 ] 637.4s/epoch
+- coeff_cons: 4.9179e-01 , lr: 1.0000e-04
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.7875e-03 | 4.8698e-02
+* [valid] Relative error: 1.7624e-03 | 1.8472e-02
+
+
+
+[ Epoch 41/300 ] 637.4s/epoch
+- coeff_cons: 4.9261e-01 , lr: 9.7553e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.5406e-03 | 3.0257e-02
+* [valid] Relative error: 1.9494e-03 | 4.6474e-02
+
+
+
+[ Epoch 42/300 ] 637.4s/epoch
+- coeff_cons: 4.9335e-01 , lr: 9.0451e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.9065e-03 | 4.5443e-02
+* [valid] Relative error: 1.6828e-03 | 1.9520e-02
+
+
+
+[ Epoch 43/300 ] 637.4s/epoch
+- coeff_cons: 4.9401e-01 , lr: 7.9389e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.4330e-03 | 2.5740e-02
+* [valid] Relative error: 1.5600e-03 | 9.4738e-03
+
+
+
+[ Epoch 44/300 ] 637.4s/epoch
+- coeff_cons: 4.9461e-01 , lr: 6.5451e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.5405e-03 | 3.6586e-02
+* [valid] Relative error: 1.4893e-03 | 3.0567e-03
+
+
+
+[ Epoch 45/300 ] 637.4s/epoch
+- coeff_cons: 4.9515e-01 , lr: 5.0000e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.2541e-03 | 1.6419e-02
+* [valid] Relative error: 1.5047e-03 | 1.4232e-02
+
+
+
+[ Epoch 46/300 ] 637.3s/epoch
+- coeff_cons: 4.9564e-01 , lr: 3.4549e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.4965e-03 | 4.0092e-02
+* [valid] Relative error: 1.4642e-03 | 1.3664e-02
+
+
+
+[ Epoch 47/300 ] 637.3s/epoch
+- coeff_cons: 4.9607e-01 , lr: 2.0611e-05
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.1961e-03 | 1.6843e-02
+* [valid] Relative error: 1.4076e-03 | 6.0278e-03
+
+
+
+[ Epoch 48/300 ] 637.3s/epoch
+- coeff_cons: 4.9647e-01 , lr: 9.5492e-06
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.1112e-03 | 6.3654e-03
+* [valid] Relative error: 1.3810e-03 | 8.9231e-03
+
+
+
+[ Epoch 49/300 ] 637.3s/epoch
+- coeff_cons: 4.9682e-01 , lr: 2.4472e-06
+# Best model: epoch 32 (1.7250e-03 | 1.2100e-03)
+* [train] Relative error: 1.0863e-03 | 4.4464e-03
+* [valid] Relative error: 1.3450e-03 | 6.7126e-03
+
+
+
+[ Epoch 50/300 ] 637.3s/epoch
+- coeff_cons: 4.9714e-01 , lr: 0.0000e+00
+# Best model: epoch 50 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.0644e-03 | 9.7526e-04
+* [valid] Relative error: 1.3189e-03 | 1.0221e-03
+
+
+
+[ Epoch 51/300 ] 637.3s/epoch
+- coeff_cons: 4.9742e-01 , lr: 2.4472e-06
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.0591e-03 | 5.5096e-04
+* [valid] Relative error: 1.3189e-03 | 1.0221e-03
+
+
+
+[ Epoch 52/300 ] 637.3s/epoch
+- coeff_cons: 4.9768e-01 , lr: 9.5492e-06
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.0609e-03 | 1.4151e-03
+* [valid] Relative error: 1.3179e-03 | 1.9009e-03
+
+
+
+[ Epoch 53/300 ] 637.3s/epoch
+- coeff_cons: 4.9791e-01 , lr: 2.0611e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.0699e-03 | 4.8156e-03
+* [valid] Relative error: 1.3354e-03 | 7.2965e-03
+
+
+
+[ Epoch 54/300 ] 637.3s/epoch
+- coeff_cons: 4.9812e-01 , lr: 3.4549e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.0657e-03 | 6.1989e-03
+* [valid] Relative error: 1.3390e-03 | 9.7774e-03
+
+
+
+[ Epoch 55/300 ] 637.3s/epoch
+- coeff_cons: 4.9831e-01 , lr: 5.0000e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.0566e-03 | 5.4010e-03
+* [valid] Relative error: 1.3148e-03 | 5.5765e-03
+
+
+
+[ Epoch 56/300 ] 637.3s/epoch
+- coeff_cons: 4.9848e-01 , lr: 6.5451e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.0823e-03 | 1.0447e-02
+* [valid] Relative error: 1.6129e-03 | 3.6154e-02
+
+
+
+[ Epoch 57/300 ] 637.3s/epoch
+- coeff_cons: 4.9863e-01 , lr: 7.9389e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.2894e-03 | 2.4888e-02
+* [valid] Relative error: 1.4877e-03 | 3.0738e-02
+
+
+
+[ Epoch 58/300 ] 637.3s/epoch
+- coeff_cons: 4.9877e-01 , lr: 9.0451e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.1646e-03 | 2.3344e-02
+* [valid] Relative error: 1.5249e-03 | 3.3591e-02
+
+
+
+[ Epoch 59/300 ] 637.3s/epoch
+- coeff_cons: 4.9889e-01 , lr: 9.7553e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.5830e-03 | 2.9309e-02
+* [valid] Relative error: 1.6057e-03 | 4.2301e-02
+
+
+
+[ Epoch 60/300 ] 637.3s/epoch
+- coeff_cons: 4.9900e-01 , lr: 1.0000e-04
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.1591e-03 | 2.5719e-02
+* [valid] Relative error: 1.3591e-03 | 1.7558e-02
+
+
+
+[ Epoch 61/300 ] 637.3s/epoch
+- coeff_cons: 4.9910e-01 , lr: 9.7553e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.1634e-03 | 2.6699e-02
+* [valid] Relative error: 1.3164e-03 | 2.0177e-02
+
+
+
+[ Epoch 62/300 ] 637.2s/epoch
+- coeff_cons: 4.9919e-01 , lr: 9.0451e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.6163e-03 | 4.0152e-02
+* [valid] Relative error: 1.4609e-03 | 1.3177e-02
+
+
+
+[ Epoch 63/300 ] 637.2s/epoch
+- coeff_cons: 4.9927e-01 , lr: 7.9389e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.1326e-03 | 2.3773e-02
+* [valid] Relative error: 1.5071e-03 | 3.7914e-02
+
+
+
+[ Epoch 64/300 ] 637.2s/epoch
+- coeff_cons: 4.9935e-01 , lr: 6.5451e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.2390e-03 | 3.7466e-02
+* [valid] Relative error: 1.5551e-03 | 4.7260e-02
+
+
+
+[ Epoch 65/300 ] 637.2s/epoch
+- coeff_cons: 4.9941e-01 , lr: 5.0000e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 1.1742e-03 | 3.0323e-02
+* [valid] Relative error: 1.2395e-03 | 1.3726e-02
+
+
+
+[ Epoch 66/300 ] 637.2s/epoch
+- coeff_cons: 4.9947e-01 , lr: 3.4549e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 9.8984e-04 | 1.6836e-02
+* [valid] Relative error: 1.2713e-03 | 1.9901e-02
+
+
+
+[ Epoch 67/300 ] 637.2s/epoch
+- coeff_cons: 4.9952e-01 , lr: 2.0611e-05
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 9.4969e-04 | 1.6452e-02
+* [valid] Relative error: 1.1738e-03 | 9.0508e-03
+
+
+
+[ Epoch 68/300 ] 637.1s/epoch
+- coeff_cons: 4.9957e-01 , lr: 9.5492e-06
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 9.0580e-04 | 1.2302e-02
+* [valid] Relative error: 1.1350e-03 | 7.1220e-03
+
+
+
+[ Epoch 69/300 ] 637.1s/epoch
+- coeff_cons: 4.9961e-01 , lr: 2.4472e-06
+# Best model: epoch 51 (1.3189e-03 | 1.0221e-03)
+* [train] Relative error: 8.5124e-04 | 4.6421e-03
+* [valid] Relative error: 1.1020e-03 | 3.0650e-03
+
+
+
+[ Epoch 70/300 ] 637.1s/epoch
+- coeff_cons: 4.9965e-01 , lr: 0.0000e+00
+# Best model: epoch 70 (1.0928e-03 | 8.8254e-04)
+* [train] Relative error: 8.3134e-04 | 8.1470e-04
+* [valid] Relative error: 1.0928e-03 | 8.8254e-04
+
+
+
+[ Epoch 71/300 ] 637.1s/epoch
+- coeff_cons: 4.9969e-01 , lr: 2.4472e-06
+# Best model: epoch 71 (1.0928e-03 | 8.8254e-04)
+* [train] Relative error: 8.2668e-04 | 4.4988e-04
+* [valid] Relative error: 1.0928e-03 | 8.8254e-04
+
+
+
+[ Epoch 72/300 ] 637.1s/epoch
+- coeff_cons: 4.9972e-01 , lr: 9.5492e-06
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 8.2858e-04 | 1.0880e-03
+* [valid] Relative error: 1.0899e-03 | 8.6910e-04
+
+
+
+[ Epoch 73/300 ] 637.1s/epoch
+- coeff_cons: 4.9975e-01 , lr: 2.0611e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 8.3505e-04 | 4.5675e-03
+* [valid] Relative error: 1.1213e-03 | 1.0041e-02
+
+
+
+[ Epoch 74/300 ] 637.1s/epoch
+- coeff_cons: 4.9977e-01 , lr: 3.4549e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 8.3337e-04 | 5.7666e-03
+* [valid] Relative error: 1.1048e-03 | 6.7083e-03
+
+
+
+[ Epoch 75/300 ] 637.0s/epoch
+- coeff_cons: 4.9979e-01 , lr: 5.0000e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 8.4673e-04 | 9.3074e-03
+* [valid] Relative error: 1.1501e-03 | 1.4378e-02
+
+
+
+[ Epoch 76/300 ] 637.0s/epoch
+- coeff_cons: 4.9982e-01 , lr: 6.5451e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 9.8997e-04 | 2.3691e-02
+* [valid] Relative error: 1.2424e-03 | 2.6478e-02
+
+
+
+[ Epoch 77/300 ] 637.0s/epoch
+- coeff_cons: 4.9983e-01 , lr: 7.9389e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 8.8866e-04 | 1.6590e-02
+* [valid] Relative error: 1.1634e-03 | 1.2937e-02
+
+
+
+[ Epoch 78/300 ] 637.0s/epoch
+- coeff_cons: 4.9985e-01 , lr: 9.0451e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 9.1721e-04 | 1.9797e-02
+* [valid] Relative error: 1.1638e-03 | 1.4707e-02
+
+
+
+[ Epoch 79/300 ] 637.0s/epoch
+- coeff_cons: 4.9987e-01 , lr: 9.7553e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 1.3184e-03 | 3.8148e-02
+* [valid] Relative error: 1.2113e-03 | 1.8045e-02
+
+
+
+[ Epoch 80/300 ] 637.0s/epoch
+- coeff_cons: 4.9988e-01 , lr: 1.0000e-04
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 1.2360e-03 | 3.8840e-02
+* [valid] Relative error: 1.5596e-03 | 5.6648e-02
+
+
+
+[ Epoch 81/300 ] 637.0s/epoch
+- coeff_cons: 4.9989e-01 , lr: 9.7553e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 1.0166e-03 | 2.8322e-02
+* [valid] Relative error: 1.0898e-03 | 4.7665e-03
+
+
+
+[ Epoch 82/300 ] 637.0s/epoch
+- coeff_cons: 4.9990e-01 , lr: 9.0451e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 9.4171e-04 | 2.4756e-02
+* [valid] Relative error: 1.2479e-03 | 1.4973e-02
+
+
+
+[ Epoch 83/300 ] 637.0s/epoch
+- coeff_cons: 4.9991e-01 , lr: 7.9389e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 1.2131e-03 | 4.0051e-02
+* [valid] Relative error: 1.2048e-03 | 2.0397e-02
+
+
+
+[ Epoch 84/300 ] 637.0s/epoch
+- coeff_cons: 4.9992e-01 , lr: 6.5451e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 9.3035e-04 | 2.4772e-02
+* [valid] Relative error: 1.1165e-03 | 1.4550e-02
+
+
+
+[ Epoch 85/300 ] 637.0s/epoch
+- coeff_cons: 4.9993e-01 , lr: 5.0000e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 9.4385e-04 | 2.7144e-02
+* [valid] Relative error: 1.0461e-03 | 1.1239e-02
+
+
+
+[ Epoch 86/300 ] 637.0s/epoch
+- coeff_cons: 4.9994e-01 , lr: 3.4549e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 7.7557e-04 | 1.2662e-02
+* [valid] Relative error: 1.0175e-03 | 4.5660e-03
+
+
+
+[ Epoch 87/300 ] 637.0s/epoch
+- coeff_cons: 4.9994e-01 , lr: 2.0611e-05
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 7.5457e-04 | 1.1605e-02
+* [valid] Relative error: 1.1622e-03 | 3.0199e-02
+
+
+
+[ Epoch 88/300 ] 636.9s/epoch
+- coeff_cons: 4.9995e-01 , lr: 9.5492e-06
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 7.5644e-04 | 1.3459e-02
+* [valid] Relative error: 9.7928e-04 | 4.9801e-03
+
+
+
+[ Epoch 89/300 ] 636.9s/epoch
+- coeff_cons: 4.9995e-01 , lr: 2.4472e-06
+# Best model: epoch 72 (1.0899e-03 | 8.6910e-04)
+* [train] Relative error: 6.9005e-04 | 3.5795e-03
+* [valid] Relative error: 9.6230e-04 | 2.7109e-03
+
+
+
+[ Epoch 90/300 ] 636.9s/epoch
+- coeff_cons: 4.9996e-01 , lr: 0.0000e+00
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 6.7532e-04 | 7.2503e-04
+* [valid] Relative error: 9.4371e-04 | 9.7806e-04
+
+
+
+[ Epoch 91/300 ] 637.0s/epoch
+- coeff_cons: 4.9996e-01 , lr: 2.4472e-06
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 6.6957e-04 | 4.7294e-04
+* [valid] Relative error: 9.4371e-04 | 9.7806e-04
+
+
+
+[ Epoch 92/300 ] 637.0s/epoch
+- coeff_cons: 4.9997e-01 , lr: 9.5492e-06
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 6.7388e-04 | 1.2036e-03
+* [valid] Relative error: 9.4230e-04 | 1.1217e-03
+
+
+
+[ Epoch 93/300 ] 637.0s/epoch
+- coeff_cons: 4.9997e-01 , lr: 2.0611e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 6.7663e-04 | 3.3979e-03
+* [valid] Relative error: 9.5771e-04 | 1.5973e-03
+
+
+
+[ Epoch 94/300 ] 637.0s/epoch
+- coeff_cons: 4.9997e-01 , lr: 3.4549e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 7.0457e-04 | 8.4999e-03
+* [valid] Relative error: 9.8517e-04 | 9.9943e-03
+
+
+
+[ Epoch 95/300 ] 637.0s/epoch
+- coeff_cons: 4.9997e-01 , lr: 5.0000e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 7.4987e-04 | 1.4628e-02
+* [valid] Relative error: 9.7295e-04 | 1.3640e-03
+
+
+
+[ Epoch 96/300 ] 637.0s/epoch
+- coeff_cons: 4.9998e-01 , lr: 6.5451e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 1.2022e-03 | 4.4124e-02
+* [valid] Relative error: 1.0013e-03 | 1.2713e-02
+
+
+
+[ Epoch 97/300 ] 637.0s/epoch
+- coeff_cons: 4.9998e-01 , lr: 7.9389e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 7.3838e-04 | 1.5080e-02
+* [valid] Relative error: 1.0184e-03 | 1.0871e-02
+
+
+
+[ Epoch 98/300 ] 637.0s/epoch
+- coeff_cons: 4.9998e-01 , lr: 9.0451e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 9.5842e-04 | 2.6143e-02
+* [valid] Relative error: 1.1058e-03 | 2.2370e-02
+
+
+
+[ Epoch 99/300 ] 637.0s/epoch
+- coeff_cons: 4.9998e-01 , lr: 9.7553e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 1.4511e-03 | 5.9414e-02
+* [valid] Relative error: 1.0688e-03 | 4.0220e-03
+
+
+
+[ Epoch 100/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 1.0000e-04
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 1.1251e-03 | 3.7643e-02
+* [valid] Relative error: 1.0437e-03 | 6.9058e-03
+
+
+
+[ Epoch 101/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 9.7553e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 1.0311e-03 | 3.4054e-02
+* [valid] Relative error: 1.0438e-03 | 8.9846e-03
+
+
+
+[ Epoch 102/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 9.0451e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 1.0369e-03 | 3.7740e-02
+* [valid] Relative error: 1.0454e-03 | 1.2186e-02
+
+
+
+[ Epoch 103/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 7.9389e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 6.9202e-04 | 1.0223e-02
+* [valid] Relative error: 1.0218e-03 | 1.4938e-02
+
+
+
+[ Epoch 104/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 6.5451e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 8.6729e-04 | 1.9662e-02
+* [valid] Relative error: 9.6945e-04 | 1.1799e-02
+
+
+
+[ Epoch 105/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 5.0000e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 7.1671e-04 | 1.5593e-02
+* [valid] Relative error: 9.5597e-04 | 1.0466e-02
+
+
+
+[ Epoch 106/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 3.4549e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 6.4621e-04 | 1.0501e-02
+* [valid] Relative error: 9.2938e-04 | 6.3719e-03
+
+
+
+[ Epoch 107/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 2.0611e-05
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 6.4071e-04 | 9.7445e-03
+* [valid] Relative error: 9.2406e-04 | 1.2640e-02
+
+
+
+[ Epoch 108/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 9.5492e-06
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 6.1478e-04 | 7.5621e-03
+* [valid] Relative error: 9.2575e-04 | 1.2138e-02
+
+
+
+[ Epoch 109/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 2.4472e-06
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 5.9197e-04 | 3.7558e-03
+* [valid] Relative error: 8.8033e-04 | 4.5753e-03
+
+
+
+[ Epoch 110/300 ] 637.0s/epoch
+- coeff_cons: 4.9999e-01 , lr: 0.0000e+00
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 5.8000e-04 | 7.5200e-04
+* [valid] Relative error: 8.5001e-04 | 1.3201e-03
+
+
+
+[ Epoch 111/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 90 (9.4371e-04 | 9.7806e-04)
+* [train] Relative error: 5.7535e-04 | 8.6664e-04
+* [valid] Relative error: 8.5001e-04 | 1.3201e-03
+
+
+
+[ Epoch 112/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 5.7791e-04 | 1.1148e-03
+* [valid] Relative error: 8.4970e-04 | 1.0696e-03
+
+
+
+[ Epoch 113/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 5.8480e-04 | 4.1234e-03
+* [valid] Relative error: 8.5802e-04 | 2.2238e-03
+
+
+
+[ Epoch 114/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 6.0670e-04 | 7.7765e-03
+* [valid] Relative error: 8.7160e-04 | 3.1393e-03
+
+
+
+[ Epoch 115/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 5.9462e-04 | 7.6613e-03
+* [valid] Relative error: 8.9608e-04 | 5.0217e-03
+
+
+
+[ Epoch 116/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 7.2459e-04 | 1.9570e-02
+* [valid] Relative error: 1.0329e-03 | 2.4652e-02
+
+
+
+[ Epoch 117/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 6.5765e-04 | 1.3970e-02
+* [valid] Relative error: 9.4002e-04 | 1.3770e-02
+
+
+
+[ Epoch 118/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 6.3409e-04 | 1.1774e-02
+* [valid] Relative error: 9.1536e-04 | 1.1544e-02
+
+
+
+[ Epoch 119/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 7.0167e-04 | 1.8362e-02
+* [valid] Relative error: 1.0957e-03 | 2.8207e-02
+
+
+
+[ Epoch 120/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 1.0000e-04
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 1.0670e-03 | 3.3973e-02
+* [valid] Relative error: 1.1816e-03 | 1.2274e-02
+
+
+
+[ Epoch 121/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 9.6741e-04 | 2.9442e-02
+* [valid] Relative error: 9.4220e-04 | 1.2847e-02
+
+
+
+[ Epoch 122/300 ] 637.1s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 9.1041e-04 | 3.3386e-02
+* [valid] Relative error: 9.1173e-04 | 2.8070e-03
+
+
+
+[ Epoch 123/300 ] 637.1s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 8.7787e-04 | 3.0590e-02
+* [valid] Relative error: 9.4557e-04 | 1.2061e-02
+
+
+
+[ Epoch 124/300 ] 637.1s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 8.4901e-04 | 2.3506e-02
+* [valid] Relative error: 9.2050e-04 | 1.3284e-03
+
+
+
+[ Epoch 125/300 ] 637.1s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 7.1762e-04 | 1.9902e-02
+* [valid] Relative error: 8.7945e-04 | 7.9338e-03
+
+
+
+[ Epoch 126/300 ] 637.1s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 5.8160e-04 | 9.3977e-03
+* [valid] Relative error: 9.1149e-04 | 1.5863e-02
+
+
+
+[ Epoch 127/300 ] 637.1s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 5.7309e-04 | 9.2655e-03
+* [valid] Relative error: 8.6905e-04 | 1.0190e-02
+
+
+
+[ Epoch 128/300 ] 637.1s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 5.4928e-04 | 6.2789e-03
+* [valid] Relative error: 8.3011e-04 | 3.7289e-03
+
+
+
+[ Epoch 129/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 112 (8.4970e-04 | 1.0696e-03)
+* [train] Relative error: 5.2801e-04 | 2.8133e-03
+* [valid] Relative error: 8.1248e-04 | 5.2407e-03
+
+
+
+[ Epoch 130/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 0.0000e+00
+# Best model: epoch 130 (7.9259e-04 | 9.2753e-04)
+* [train] Relative error: 5.2054e-04 | 6.8489e-04
+* [valid] Relative error: 7.9259e-04 | 9.2753e-04
+
+
+
+[ Epoch 131/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 130 (7.9259e-04 | 9.2753e-04)
+* [train] Relative error: 5.1564e-04 | 4.0891e-04
+* [valid] Relative error: 7.9259e-04 | 9.2753e-04
+
+
+
+[ Epoch 132/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.1876e-04 | 9.3413e-04
+* [valid] Relative error: 7.9116e-04 | 8.5183e-04
+
+
+
+[ Epoch 133/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.1998e-04 | 3.2528e-03
+* [valid] Relative error: 8.0150e-04 | 2.2829e-03
+
+
+
+[ Epoch 134/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.3599e-04 | 6.6976e-03
+* [valid] Relative error: 8.1888e-04 | 3.3586e-03
+
+
+
+[ Epoch 135/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.1952e-04 | 4.9557e-03
+* [valid] Relative error: 8.2209e-04 | 5.2166e-03
+
+
+
+[ Epoch 136/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 6.8290e-04 | 1.9290e-02
+* [valid] Relative error: 8.9231e-04 | 1.1930e-02
+
+
+
+[ Epoch 137/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 7.0152e-04 | 2.0660e-02
+* [valid] Relative error: 9.7545e-04 | 2.5768e-02
+
+
+
+[ Epoch 138/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 6.2270e-04 | 1.4612e-02
+* [valid] Relative error: 1.2943e-03 | 5.4929e-02
+
+
+
+[ Epoch 139/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 6.9168e-04 | 2.0041e-02
+* [valid] Relative error: 9.8963e-04 | 2.7235e-02
+
+
+
+[ Epoch 140/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 1.0000e-04
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 8.3718e-04 | 2.8746e-02
+* [valid] Relative error: 8.6671e-04 | 1.1818e-02
+
+
+
+[ Epoch 141/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.4284e-04 | 9.7737e-03
+* [valid] Relative error: 1.4096e-03 | 6.0524e-02
+
+
+
+[ Epoch 142/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 8.5499e-04 | 3.2208e-02
+* [valid] Relative error: 9.3778e-04 | 2.2280e-02
+
+
+
+[ Epoch 143/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 6.2207e-04 | 1.7228e-02
+* [valid] Relative error: 9.8539e-04 | 2.6308e-02
+
+
+
+[ Epoch 144/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 7.2556e-04 | 2.5775e-02
+* [valid] Relative error: 1.0797e-03 | 3.5689e-02
+
+
+
+[ Epoch 145/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 8.5824e-04 | 3.4171e-02
+* [valid] Relative error: 1.0475e-03 | 2.9689e-02
+
+
+
+[ Epoch 146/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.3723e-04 | 1.1319e-02
+* [valid] Relative error: 7.8392e-04 | 6.2568e-03
+
+
+
+[ Epoch 147/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.0487e-04 | 9.3375e-03
+* [valid] Relative error: 7.6926e-04 | 7.7418e-03
+
+
+
+[ Epoch 148/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.1731e-04 | 1.0467e-02
+* [valid] Relative error: 7.6904e-04 | 5.6318e-03
+
+
+
+[ Epoch 149/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 4.5234e-04 | 2.4773e-03
+* [valid] Relative error: 7.4053e-04 | 1.6307e-03
+
+
+
+[ Epoch 150/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 0.0000e+00
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 4.4676e-04 | 7.4080e-04
+* [valid] Relative error: 7.2959e-04 | 1.1598e-03
+
+
+
+[ Epoch 151/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 4.4411e-04 | 6.3258e-04
+* [valid] Relative error: 7.2959e-04 | 1.1598e-03
+
+
+
+[ Epoch 152/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 4.4648e-04 | 8.4253e-04
+* [valid] Relative error: 7.3014e-04 | 1.4840e-03
+
+
+
+[ Epoch 153/300 ] 637.0s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 4.4980e-04 | 3.1598e-03
+* [valid] Relative error: 7.4218e-04 | 2.5717e-03
+
+
+
+[ Epoch 154/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 4.6946e-04 | 6.6823e-03
+* [valid] Relative error: 8.1097e-04 | 1.6320e-02
+
+
+
+[ Epoch 155/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 4.7700e-04 | 7.6844e-03
+* [valid] Relative error: 7.4764e-04 | 3.8160e-03
+
+
+
+[ Epoch 156/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.4563e-04 | 1.3718e-02
+* [valid] Relative error: 8.0105e-04 | 1.3952e-02
+
+
+
+[ Epoch 157/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.0636e-04 | 1.1548e-02
+* [valid] Relative error: 8.5255e-04 | 1.5862e-02
+
+
+
+[ Epoch 158/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 8.9980e-04 | 3.4576e-02
+* [valid] Relative error: 8.7628e-04 | 1.8265e-02
+
+
+
+[ Epoch 159/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 7.0610e-04 | 2.5582e-02
+* [valid] Relative error: 7.7946e-04 | 3.5909e-03
+
+
+
+[ Epoch 160/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 1.0000e-04
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 7.6352e-04 | 2.8771e-02
+* [valid] Relative error: 7.8471e-04 | 2.3105e-03
+
+
+
+[ Epoch 161/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 7.8903e-04 | 3.1082e-02
+* [valid] Relative error: 1.1034e-03 | 3.8920e-02
+
+
+
+[ Epoch 162/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 1.0575e-03 | 4.7182e-02
+* [valid] Relative error: 1.0635e-03 | 3.7908e-02
+
+
+
+[ Epoch 163/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 9.5068e-04 | 3.7245e-02
+* [valid] Relative error: 8.4809e-04 | 1.8014e-02
+
+
+
+[ Epoch 164/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.3535e-04 | 1.4209e-02
+* [valid] Relative error: 7.7841e-04 | 6.4310e-03
+
+
+
+[ Epoch 165/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.6594e-04 | 1.6770e-02
+* [valid] Relative error: 8.9485e-04 | 2.5941e-02
+
+
+
+[ Epoch 166/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 5.2634e-04 | 1.4365e-02
+* [valid] Relative error: 7.4207e-04 | 5.9797e-03
+
+
+
+[ Epoch 167/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 4.3017e-04 | 6.0909e-03
+* [valid] Relative error: 7.2270e-04 | 4.2125e-03
+
+
+
+[ Epoch 168/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 4.8034e-04 | 1.1650e-02
+* [valid] Relative error: 7.3746e-04 | 1.0720e-02
+
+
+
+[ Epoch 169/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 132 (7.9116e-04 | 8.5183e-04)
+* [train] Relative error: 4.0515e-04 | 2.3059e-03
+* [valid] Relative error: 7.0723e-04 | 1.6436e-03
+
+
+
+[ Epoch 170/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 0.0000e+00
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 4.0017e-04 | 5.7323e-04
+* [valid] Relative error: 6.8624e-04 | 7.9644e-04
+
+
+
+[ Epoch 171/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 3.9635e-04 | 3.0059e-04
+* [valid] Relative error: 6.8624e-04 | 7.9644e-04
+
+
+
+[ Epoch 172/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 3.9767e-04 | 7.8233e-04
+* [valid] Relative error: 6.8506e-04 | 8.6168e-04
+
+
+
+[ Epoch 173/300 ] 636.9s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 4.0125e-04 | 2.8131e-03
+* [valid] Relative error: 7.0091e-04 | 2.5470e-03
+
+
+
+[ Epoch 174/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 4.2768e-04 | 6.6685e-03
+* [valid] Relative error: 7.6384e-04 | 1.2210e-02
+
+
+
+[ Epoch 175/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 4.5885e-04 | 1.0158e-02
+* [valid] Relative error: 7.2416e-04 | 1.0171e-02
+
+
+
+[ Epoch 176/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 5.1347e-04 | 1.5279e-02
+* [valid] Relative error: 8.2036e-04 | 1.9721e-02
+
+
+
+[ Epoch 177/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 5.3140e-04 | 1.6348e-02
+* [valid] Relative error: 7.1451e-04 | 5.7539e-03
+
+
+
+[ Epoch 178/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 4.8135e-04 | 1.3069e-02
+* [valid] Relative error: 7.2970e-04 | 9.6350e-03
+
+
+
+[ Epoch 179/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 9.7938e-04 | 4.1391e-02
+* [valid] Relative error: 8.3900e-04 | 2.1788e-02
+
+
+
+[ Epoch 180/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 1.0000e-04
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 7.6794e-04 | 3.0994e-02
+* [valid] Relative error: 7.5903e-04 | 8.1430e-03
+
+
+
+[ Epoch 181/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 5.4573e-04 | 1.6860e-02
+* [valid] Relative error: 7.6439e-04 | 1.0762e-02
+
+
+
+[ Epoch 182/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 9.5500e-04 | 3.4947e-02
+* [valid] Relative error: 8.1912e-04 | 1.4296e-02
+
+
+
+[ Epoch 183/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 6.6937e-04 | 2.5476e-02
+* [valid] Relative error: 7.6176e-04 | 8.8843e-03
+
+
+
+[ Epoch 184/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 4.7038e-04 | 1.2347e-02
+* [valid] Relative error: 7.9716e-04 | 1.8609e-02
+
+
+
+[ Epoch 185/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 5.3908e-04 | 1.8522e-02
+* [valid] Relative error: 8.4805e-04 | 2.3355e-02
+
+
+
+[ Epoch 186/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 4.2661e-04 | 8.7594e-03
+* [valid] Relative error: 7.0676e-04 | 6.2321e-03
+
+
+
+[ Epoch 187/300 ] 636.8s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 4.2175e-04 | 9.6051e-03
+* [valid] Relative error: 6.7671e-04 | 1.1964e-03
+
+
+
+[ Epoch 188/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 3.9519e-04 | 6.3325e-03
+* [valid] Relative error: 7.2540e-04 | 1.3016e-02
+
+
+
+[ Epoch 189/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 170 (6.8624e-04 | 7.9644e-04)
+* [train] Relative error: 3.6816e-04 | 2.8652e-03
+* [valid] Relative error: 6.6902e-04 | 1.6042e-03
+
+
+
+[ Epoch 190/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 0.0000e+00
+# Best model: epoch 190 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 3.6169e-04 | 5.1574e-04
+* [valid] Relative error: 6.5369e-04 | 7.8606e-04
+
+
+
+[ Epoch 191/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 3.6115e-04 | 2.8666e-04
+* [valid] Relative error: 6.5369e-04 | 7.8606e-04
+
+
+
+[ Epoch 192/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 3.5980e-04 | 8.0687e-04
+* [valid] Relative error: 6.5396e-04 | 1.0780e-03
+
+
+
+[ Epoch 193/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 3.6358e-04 | 2.8381e-03
+* [valid] Relative error: 6.7015e-04 | 3.2274e-03
+
+
+
+[ Epoch 194/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 3.9051e-04 | 6.3000e-03
+* [valid] Relative error: 6.8029e-04 | 4.3109e-03
+
+
+
+[ Epoch 195/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 3.7601e-04 | 5.6639e-03
+* [valid] Relative error: 6.7471e-04 | 4.1323e-03
+
+
+
+[ Epoch 196/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 3.9794e-04 | 8.1132e-03
+* [valid] Relative error: 7.2742e-04 | 1.3574e-02
+
+
+
+[ Epoch 197/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 5.2612e-04 | 1.8169e-02
+* [valid] Relative error: 6.8861e-04 | 7.1454e-03
+
+
+
+[ Epoch 198/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 5.7633e-04 | 2.0660e-02
+* [valid] Relative error: 9.0010e-04 | 3.1058e-02
+
+
+
+[ Epoch 199/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 4.8660e-04 | 1.5382e-02
+* [valid] Relative error: 7.8293e-04 | 2.1274e-02
+
+
+
+[ Epoch 200/300 ] 636.7s/epoch
+- coeff_cons: 5.0000e-01 , lr: 1.0000e-04
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 7.5652e-04 | 2.9582e-02
+* [valid] Relative error: 8.4461e-04 | 2.4723e-02
+
+
+
+[ Epoch 201/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 6.6480e-04 | 2.7448e-02
+* [valid] Relative error: 9.8329e-04 | 3.7465e-02
+
+
+
+[ Epoch 202/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 5.9087e-04 | 2.1191e-02
+* [valid] Relative error: 8.1631e-04 | 1.9299e-02
+
+
+
+[ Epoch 203/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 6.1374e-04 | 2.3865e-02
+* [valid] Relative error: 7.4816e-04 | 9.9111e-03
+
+
+
+[ Epoch 204/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 5.6702e-04 | 2.0564e-02
+* [valid] Relative error: 1.1011e-03 | 4.6206e-02
+
+
+
+[ Epoch 205/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 6.1497e-04 | 2.3378e-02
+* [valid] Relative error: 7.3702e-04 | 1.4698e-02
+
+
+
+[ Epoch 206/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 4.4437e-04 | 1.2587e-02
+* [valid] Relative error: 6.5909e-04 | 4.2669e-03
+
+
+
+[ Epoch 207/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 3.7159e-04 | 7.0196e-03
+* [valid] Relative error: 7.0388e-04 | 1.2655e-02
+
+
+
+[ Epoch 208/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 3.7084e-04 | 7.2648e-03
+* [valid] Relative error: 6.3868e-04 | 3.1123e-03
+
+
+
+[ Epoch 209/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 191 (6.5369e-04 | 7.8606e-04)
+* [train] Relative error: 3.3162e-04 | 2.5073e-03
+* [valid] Relative error: 6.3691e-04 | 3.8104e-03
+
+
+
+[ Epoch 210/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 0.0000e+00
+# Best model: epoch 210 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.2558e-04 | 6.6858e-04
+* [valid] Relative error: 6.2641e-04 | 7.9949e-04
+
+
+
+[ Epoch 211/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.2527e-04 | 3.1595e-04
+* [valid] Relative error: 6.2641e-04 | 7.9949e-04
+
+
+
+[ Epoch 212/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.2429e-04 | 9.8067e-04
+* [valid] Relative error: 6.2689e-04 | 1.8517e-03
+
+
+
+[ Epoch 213/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.2596e-04 | 2.0265e-03
+* [valid] Relative error: 6.3269e-04 | 1.3299e-03
+
+
+
+[ Epoch 214/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.5026e-04 | 6.0248e-03
+* [valid] Relative error: 6.6147e-04 | 9.6314e-03
+
+
+
+[ Epoch 215/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.4901e-04 | 5.8684e-03
+* [valid] Relative error: 6.4192e-04 | 3.5755e-03
+
+
+
+[ Epoch 216/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.6505e-04 | 7.7132e-03
+* [valid] Relative error: 6.6136e-04 | 4.5657e-03
+
+
+
+[ Epoch 217/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.8359e-04 | 9.6279e-03
+* [valid] Relative error: 6.5464e-04 | 7.3632e-03
+
+
+
+[ Epoch 218/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 7.4946e-04 | 2.7167e-02
+* [valid] Relative error: 7.1937e-04 | 1.0081e-02
+
+
+
+[ Epoch 219/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.8218e-04 | 7.8476e-03
+* [valid] Relative error: 7.1777e-04 | 1.4225e-02
+
+
+
+[ Epoch 220/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 1.0000e-04
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 4.3914e-04 | 1.3987e-02
+* [valid] Relative error: 6.7299e-04 | 1.0176e-02
+
+
+
+[ Epoch 221/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 5.8407e-04 | 2.1137e-02
+* [valid] Relative error: 7.4490e-04 | 7.9400e-03
+
+
+
+[ Epoch 222/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 8.6378e-04 | 3.9914e-02
+* [valid] Relative error: 7.6390e-04 | 1.5811e-02
+
+
+
+[ Epoch 223/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 5.7290e-04 | 2.2953e-02
+* [valid] Relative error: 6.5515e-04 | 2.3321e-03
+
+
+
+[ Epoch 224/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.9980e-04 | 1.1298e-02
+* [valid] Relative error: 6.7229e-04 | 9.1088e-03
+
+
+
+[ Epoch 225/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 4.8713e-04 | 1.8117e-02
+* [valid] Relative error: 7.3897e-04 | 7.5112e-03
+
+
+
+[ Epoch 226/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.9347e-04 | 1.0304e-02
+* [valid] Relative error: 6.7368e-04 | 1.2113e-02
+
+
+
+[ Epoch 227/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.5943e-04 | 9.0098e-03
+* [valid] Relative error: 6.3537e-04 | 6.2631e-03
+
+
+
+[ Epoch 228/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.3027e-04 | 5.8338e-03
+* [valid] Relative error: 6.1682e-04 | 2.1982e-03
+
+
+
+[ Epoch 229/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 211 (6.2641e-04 | 7.9949e-04)
+* [train] Relative error: 3.0290e-04 | 2.2753e-03
+* [valid] Relative error: 6.1155e-04 | 2.0885e-03
+
+
+
+[ Epoch 230/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 0.0000e+00
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.9827e-04 | 3.8273e-04
+* [valid] Relative error: 6.0305e-04 | 7.7891e-04
+
+
+
+[ Epoch 231/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.9962e-04 | 2.8467e-04
+* [valid] Relative error: 6.0305e-04 | 7.7891e-04
+
+
+
+[ Epoch 232/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.9697e-04 | 6.5402e-04
+* [valid] Relative error: 6.0265e-04 | 9.3744e-04
+
+
+
+[ Epoch 233/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.0025e-04 | 2.3558e-03
+* [valid] Relative error: 6.0729e-04 | 1.2668e-03
+
+
+
+[ Epoch 234/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.0672e-04 | 3.6204e-03
+* [valid] Relative error: 6.1332e-04 | 2.5653e-03
+
+
+
+[ Epoch 235/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.5020e-04 | 8.5104e-03
+* [valid] Relative error: 6.4591e-04 | 8.5147e-03
+
+
+
+[ Epoch 236/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.6111e-04 | 8.5253e-03
+* [valid] Relative error: 6.3441e-04 | 6.3229e-03
+
+
+
+[ Epoch 237/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.5785e-04 | 9.5207e-03
+* [valid] Relative error: 6.6051e-04 | 1.0396e-02
+
+
+
+[ Epoch 238/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 4.3300e-04 | 1.3165e-02
+* [valid] Relative error: 7.5562e-04 | 1.1182e-02
+
+
+
+[ Epoch 239/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.4400e-04 | 7.2513e-03
+* [valid] Relative error: 6.1315e-04 | 2.9868e-03
+
+
+
+[ Epoch 240/300 ] 636.4s/epoch
+- coeff_cons: 5.0000e-01 , lr: 1.0000e-04
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 5.5397e-04 | 2.1583e-02
+* [valid] Relative error: 1.0972e-03 | 4.3779e-02
+
+
+
+[ Epoch 241/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 4.2082e-04 | 1.4366e-02
+* [valid] Relative error: 7.2566e-04 | 4.0440e-03
+
+
+
+[ Epoch 242/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 6.3968e-04 | 2.6740e-02
+* [valid] Relative error: 9.9811e-04 | 3.9563e-02
+
+
+
+[ Epoch 243/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.8625e-04 | 1.2373e-02
+* [valid] Relative error: 6.5082e-04 | 8.8996e-03
+
+
+
+[ Epoch 244/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.6394e-04 | 1.1033e-02
+* [valid] Relative error: 7.1893e-04 | 1.7497e-02
+
+
+
+[ Epoch 245/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 4.3739e-04 | 1.6526e-02
+* [valid] Relative error: 7.5501e-04 | 2.2024e-02
+
+
+
+[ Epoch 246/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 4.8740e-04 | 1.9441e-02
+* [valid] Relative error: 6.6217e-04 | 1.2588e-02
+
+
+
+[ Epoch 247/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.2957e-04 | 7.9956e-03
+* [valid] Relative error: 6.1005e-04 | 5.1622e-03
+
+
+
+[ Epoch 248/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.9654e-04 | 5.0031e-03
+* [valid] Relative error: 5.9392e-04 | 3.2538e-03
+
+
+
+[ Epoch 249/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.7623e-04 | 2.3005e-03
+* [valid] Relative error: 5.8915e-04 | 1.9256e-03
+
+
+
+[ Epoch 250/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 0.0000e+00
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.7072e-04 | 4.5878e-04
+* [valid] Relative error: 5.7945e-04 | 1.0196e-03
+
+
+
+[ Epoch 251/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.7252e-04 | 5.3618e-04
+* [valid] Relative error: 5.7945e-04 | 1.0196e-03
+
+
+
+[ Epoch 252/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.7033e-04 | 6.1687e-04
+* [valid] Relative error: 5.7901e-04 | 1.3100e-03
+
+
+
+[ Epoch 253/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.8197e-04 | 3.0913e-03
+* [valid] Relative error: 5.8496e-04 | 1.7066e-03
+
+
+
+[ Epoch 254/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.9076e-04 | 4.8887e-03
+* [valid] Relative error: 6.1194e-04 | 8.2649e-03
+
+
+
+[ Epoch 255/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.8745e-04 | 4.8941e-03
+* [valid] Relative error: 5.9177e-04 | 4.2266e-03
+
+
+
+[ Epoch 256/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.8604e-04 | 1.0868e-02
+* [valid] Relative error: 6.0227e-04 | 4.6777e-03
+
+
+
+[ Epoch 257/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.3133e-04 | 9.1629e-03
+* [valid] Relative error: 6.7210e-04 | 1.4730e-02
+
+
+
+[ Epoch 258/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 5.4736e-04 | 2.0181e-02
+* [valid] Relative error: 7.0870e-04 | 1.8223e-02
+
+
+
+[ Epoch 259/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 5.3488e-04 | 2.2444e-02
+* [valid] Relative error: 6.8617e-04 | 1.1293e-02
+
+
+
+[ Epoch 260/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 1.0000e-04
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.9050e-04 | 1.3380e-02
+* [valid] Relative error: 7.5596e-04 | 2.1945e-02
+
+
+
+[ Epoch 261/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 4.3358e-04 | 1.5535e-02
+* [valid] Relative error: 6.2937e-04 | 8.9556e-03
+
+
+
+[ Epoch 262/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 4.9192e-04 | 1.7982e-02
+* [valid] Relative error: 6.9801e-04 | 1.6247e-02
+
+
+
+[ Epoch 263/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 4.6211e-04 | 1.7543e-02
+* [valid] Relative error: 6.3029e-04 | 3.8158e-03
+
+
+
+[ Epoch 264/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 4.9861e-04 | 1.7508e-02
+* [valid] Relative error: 7.0362e-04 | 9.5579e-03
+
+
+
+[ Epoch 265/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 4.1280e-04 | 1.5627e-02
+* [valid] Relative error: 6.0358e-04 | 6.1991e-03
+
+
+
+[ Epoch 266/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 4.7240e-04 | 1.9397e-02
+* [valid] Relative error: 6.0093e-04 | 1.8169e-03
+
+
+
+[ Epoch 267/300 ] 636.5s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 3.0469e-04 | 7.0739e-03
+* [valid] Relative error: 5.8459e-04 | 2.7912e-03
+
+
+
+[ Epoch 268/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.7951e-04 | 4.9873e-03
+* [valid] Relative error: 5.7870e-04 | 2.2436e-03
+
+
+
+[ Epoch 269/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.6548e-04 | 3.2050e-03
+* [valid] Relative error: 5.7778e-04 | 8.3758e-04
+
+
+
+[ Epoch 270/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 0.0000e+00
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.5266e-04 | 4.2482e-04
+* [valid] Relative error: 5.6930e-04 | 1.0158e-03
+
+
+
+[ Epoch 271/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 230 (6.0305e-04 | 7.7891e-04)
+* [train] Relative error: 2.5279e-04 | 5.4034e-04
+* [valid] Relative error: 5.6930e-04 | 1.0158e-03
+
+
+
+[ Epoch 272/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 2.5274e-04 | 5.9833e-04
+* [valid] Relative error: 5.7016e-04 | 6.9664e-04
+
+
+
+[ Epoch 273/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 2.5929e-04 | 2.6128e-03
+* [valid] Relative error: 5.8286e-04 | 5.1077e-03
+
+
+
+[ Epoch 274/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 2.7856e-04 | 4.9586e-03
+* [valid] Relative error: 5.7531e-04 | 8.3855e-04
+
+
+
+[ Epoch 275/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 2.7076e-04 | 4.8297e-03
+* [valid] Relative error: 5.7757e-04 | 3.9728e-03
+
+
+
+[ Epoch 276/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 3.2659e-04 | 8.6552e-03
+* [valid] Relative error: 5.9797e-04 | 5.9940e-03
+
+
+
+[ Epoch 277/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 4.5777e-04 | 1.7724e-02
+* [valid] Relative error: 7.1231e-04 | 1.9129e-02
+
+
+
+[ Epoch 278/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 4.4582e-04 | 1.7638e-02
+* [valid] Relative error: 6.1020e-04 | 8.1729e-03
+
+
+
+[ Epoch 279/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 5.1130e-04 | 2.1494e-02
+* [valid] Relative error: 8.2977e-04 | 2.8999e-02
+
+
+
+[ Epoch 280/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 1.0000e-04
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 6.2591e-04 | 2.6972e-02
+* [valid] Relative error: 7.5572e-04 | 2.3627e-02
+
+
+
+[ Epoch 281/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 5.5918e-04 | 2.3324e-02
+* [valid] Relative error: 9.4001e-04 | 3.8403e-02
+
+
+
+[ Epoch 282/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 5.3511e-04 | 2.1363e-02
+* [valid] Relative error: 6.0335e-04 | 1.8436e-03
+
+
+
+[ Epoch 283/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 3.5640e-04 | 1.1932e-02
+* [valid] Relative error: 7.1109e-04 | 1.9555e-02
+
+
+
+[ Epoch 284/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 4.5695e-04 | 1.9090e-02
+* [valid] Relative error: 7.7022e-04 | 2.4544e-02
+
+
+
+[ Epoch 285/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 4.0500e-04 | 1.5987e-02
+* [valid] Relative error: 6.2794e-04 | 6.7644e-03
+
+
+
+[ Epoch 286/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 3.6880e-04 | 1.2904e-02
+* [valid] Relative error: 7.1995e-04 | 2.0886e-02
+
+
+
+[ Epoch 287/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 3.0057e-04 | 7.7615e-03
+* [valid] Relative error: 5.7915e-04 | 2.3664e-03
+
+
+
+[ Epoch 288/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 2.6420e-04 | 4.2233e-03
+* [valid] Relative error: 5.8369e-04 | 7.1632e-03
+
+
+
+[ Epoch 289/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 272 (5.7016e-04 | 6.9664e-04)
+* [train] Relative error: 2.4541e-04 | 1.9860e-03
+* [valid] Relative error: 5.6997e-04 | 3.8312e-03
+
+
+
+[ Epoch 290/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 0.0000e+00
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 2.3894e-04 | 4.5748e-04
+* [valid] Relative error: 5.6015e-04 | 6.8582e-04
+
+
+
+[ Epoch 291/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.4472e-06
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 2.3956e-04 | 1.9147e-04
+* [valid] Relative error: 5.6015e-04 | 6.8582e-04
+
+
+
+[ Epoch 292/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.5492e-06
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 2.3853e-04 | 7.0447e-04
+* [valid] Relative error: 5.5874e-04 | 7.4602e-04
+
+
+
+[ Epoch 293/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 2.0611e-05
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 2.4650e-04 | 2.4844e-03
+* [valid] Relative error: 5.6070e-04 | 1.2522e-03
+
+
+
+[ Epoch 294/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 3.4549e-05
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 2.5561e-04 | 3.9015e-03
+* [valid] Relative error: 5.6823e-04 | 2.4804e-03
+
+
+
+[ Epoch 295/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 5.0000e-05
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 2.6094e-04 | 4.9214e-03
+* [valid] Relative error: 5.7164e-04 | 3.8808e-03
+
+
+
+[ Epoch 296/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 6.5451e-05
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 2.9428e-04 | 7.8053e-03
+* [valid] Relative error: 5.7179e-04 | 4.3014e-03
+
+
+
+[ Epoch 297/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 7.9389e-05
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 3.1580e-04 | 8.9113e-03
+* [valid] Relative error: 5.7923e-04 | 5.3594e-03
+
+
+
+[ Epoch 298/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.0451e-05
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 2.8009e-04 | 6.2484e-03
+* [valid] Relative error: 5.8048e-04 | 1.9060e-03
+
+
+
+[ Epoch 299/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 9.7553e-05
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 5.0659e-04 | 2.2259e-02
+* [valid] Relative error: 6.9121e-04 | 9.0069e-03
+
+
+
+[ Epoch 300/300 ] 636.6s/epoch
+- coeff_cons: 5.0000e-01 , lr: 1.0000e-04
+# Best model: epoch 290 (5.6015e-04 | 6.8582e-04)
+* [train] Relative error: 4.2378e-04 | 1.6083e-02
+* [valid] Relative error: 6.0653e-04 | 8.7564e-03
+
+
+Elapsed time: 2 days, 8:32:02
+Done.
