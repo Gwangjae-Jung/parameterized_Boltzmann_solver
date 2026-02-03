@@ -16,3 +16,5 @@ fno__hard_sphere/
 **/*IGNORE*/
 **/*legacy*/
 **/*DEPRECATED*/
+
+**/__delete_files.ipynb

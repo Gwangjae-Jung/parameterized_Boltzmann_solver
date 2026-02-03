@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/generate_data/Boltzmann__bimaxwellian.py", line 121, in <module>
+    arr_f_fft   = solver.forward(0.0, arr_f_fft, DELTA_T, one_step_RK4_classic)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/numerical/solver/base_classes.py", line 476, in forward
+    return self._forward_homogeneous(0.0, f_fft, delta_t, RK_fcn)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/numerical/solver/base_classes.py", line 488, in _forward_homogeneous
+    return RK_fcn(0.0, f_fft, delta_t, self.compute_fft)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/numerical/solver/runge_kutta.py", line 115, in RK4_classic
+    k1  = derivative(t_curr, y_curr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/numerical/solver/base_classes.py", line 445, in compute_fft
+    self.compute_gain_fft(0.0, fft_curr) - \
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/numerical/solver/base_classes.py", line 941, in compute_gain_fft
+    fft_curr[..., None, None] * self._fsm_phase_1,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+  File "/home/junseung/.local/lib/python3.12/site-packages/torch/utils/_device.py", line 79, in __torch_function__
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 13.00 GiB. GPU 2 has a total capacity of 23.68 GiB of which 10.14 GiB is free. Including non-PyTorch memory, this process has 13.53 GiB memory in use. Of the allocated memory 13.16 GiB is allocated by PyTorch, and 129.88 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/generate_data/Boltzmann__bimaxwellian.py", line 121, in <module>
+    arr_f_fft   = solver.forward(0.0, arr_f_fft, DELTA_T, one_step_RK4_classic)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/numerical/solver/base_classes.py", line 476, in forward
+    return self._forward_homogeneous(0.0, f_fft, delta_t, RK_fcn)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/numerical/solver/base_classes.py", line 488, in _forward_homogeneous
+    return RK_fcn(0.0, f_fft, delta_t, self.compute_fft)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/numerical/solver/runge_kutta.py", line 115, in RK4_classic
+    k1  = derivative(t_curr, y_curr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/numerical/solver/base_classes.py", line 445, in compute_fft
+    self.compute_gain_fft(0.0, fft_curr) - \
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/numerical/solver/base_classes.py", line 942, in compute_gain_fft
+    fft_curr[..., None, None] * self._fsm_phase_2,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+  File "/home/junseung/.local/lib/python3.12/site-packages/torch/utils/_device.py", line 79, in __torch_function__
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 6.50 GiB. GPU 2 has a total capacity of 23.68 GiB of which 414.94 MiB is free. Including non-PyTorch memory, this process has 23.26 GiB memory in use. Of the allocated memory 19.65 GiB is allocated by PyTorch, and 3.37 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
