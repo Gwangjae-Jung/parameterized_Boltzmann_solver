@@ -113,23 +113,32 @@ for part in range(PART_INIT, PART_LAST+1):
         )
         FFT_CONFIG: dict[str, object] = {'s': solver.v_shape, 'dim': solver.v_axes, 'norm': FFT_NORM}
 
-        data: list[torch.Tensor] | torch.Tensor = [init_f.cpu()]
+        data:   list[torch.Tensor] | torch.Tensor = []
+        target: list[torch.Tensor] | torch.Tensor = []
         arr_f = init_f.clone()  # DO NOT REMOVE THE CALL OF THE METHOD `clone()`
         arr_f_fft: torch.Tensor = torch.fft.fftn(arr_f, **FFT_CONFIG)
-        for cnt in range(RES_T-1):
+        for cnt in range(RES_T):
+            ##### 0. Save the data and target(FFT)
+            q_fft   = solver.compute_fft(None, arr_f_fft)
+            q       = torch.real(torch.fft.ifftn(q_fft, **FFT_CONFIG))
+            data.append(arr_f.cpu())
+            target.append(q.cpu())
+            if cnt==RES_T-1:    break
             ##### 1. Compute the distribution at the current time step
             arr_f_fft   = solver.forward(0.0, arr_f_fft, DELTA_T, one_step_RK4_classic)
             arr_f       = torch.real(torch.fft.ifftn(arr_f_fft, **FFT_CONFIG))
             ##### 2. Save the distribution at the previous time step
             data.append(arr_f.cpu())
         elapsed_time = time()-elapsed_time
-        data = torch.stack(data, dim=1)
-        print(f"* The shape of the data >>> {list(data.shape)}")
+        data    = torch.stack(data, dim=1)
+        target  = torch.stack(target, dim=1)
+        print(f"* The shape of the data and target >>> {list(data.shape)}, {list(target.shape)}")
         print(f"* Elapsed time >>> {elapsed_time:.2f} sec")
 
         # Save the data
         saved_data: dict[str, object] = {
             'data':             data,
+            'target':           target,
             
             'batch_size':       BATCH_SIZE,
             'max_t':            MAX_T,
