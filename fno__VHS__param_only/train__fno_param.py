@@ -16,7 +16,7 @@ from    deep_numerical.utils        import  get_time_str
 from    deep_numerical.utils        import  GaussianNormalizer
 from    deep_numerical.utils        import  relative_error
 from    deep_numerical.neural.utils     import  count_parameters, initialize_weights
-from    deep_numerical.neural.operator  import  ModifiedFNO
+from    deep_numerical.neural.parameterized_op  import  ModifiedFNO
 
 from    train_utils         import  load_data, exponential_cosine
 from    train_utils         import  LossFunctions
@@ -328,7 +328,7 @@ for epoch in range(1, NUM_EPOCHS + 1):
         print(f"Early stopping at epoch {epoch}.", flush=True)
         break
     
-    if epoch%10==0:
+    if epoch%100==0:
         # Save the model
         __appendix__ = f"epoch{str(epoch).zfill(len(str(NUM_EPOCHS)))}"
         __name_checkpoint = f"state_dict__{__appendix__}.pth"

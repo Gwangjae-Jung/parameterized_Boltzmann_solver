@@ -1,4 +1,0 @@
-/home/gwangjae_jung/anaconda3/envs/gjjung/lib/python3.12/site-packages/torch_geometric/__init__.py:4: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /lib64/libm.so.6: version `GLIBC_2.29' not found (required by /home/gwangjae_jung/anaconda3/envs/gjjung/lib/python3.12/site-packages/libpyg.so)
-  import torch_geometric.typing
-/home/gwangjae_jung/anaconda3/envs/gjjung/lib/python3.12/site-packages/torch_geometric/__init__.py:4: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /lib64/libm.so.6: version `GLIBC_2.29' not found (required by /home/gwangjae_jung/anaconda3/envs/gjjung/lib/python3.12/site-packages/libpyg.so)
-  import torch_geometric.typing
