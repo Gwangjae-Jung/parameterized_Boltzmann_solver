@@ -1,1 +1,0 @@
-Running RFNO3D with [max_freq=8]

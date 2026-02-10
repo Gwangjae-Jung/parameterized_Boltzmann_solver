@@ -1,1 +1,0 @@
-Running PFNO3D with [n_modes=(17, 17, 17)]

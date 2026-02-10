@@ -1,1 +1,0 @@
-Running PRFNO3D with [max_freq=8]

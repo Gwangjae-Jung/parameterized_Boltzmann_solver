@@ -16,7 +16,7 @@ from    deep_numerical.utils                import  get_time_str
 from    deep_numerical.utils                import  GaussianNormalizer
 from    deep_numerical.neural.utils         import  count_parameters, initialize_weights
 from    deep_numerical.utils                import  relative_error
-from    deep_numerical.neural.parameterized_op      import  PFNO
+from    deep_numerical.neural.operator      import  PFNO
 
 from    train_utils         import  load_data, exponential_cosine
 from    train_utils         import  LossFunctions
@@ -66,7 +66,7 @@ PATH_BASE.mkdir(exist_ok=True)
 PATH_CHECKPOINT.mkdir(exist_ok=True)
 PATH_BEST_MODEL.mkdir(exist_ok=True)
 
-sys.stdout  = open(PATH_BASE/f"{NAME_OF_DIR}.txt", "w")
+sys.stdout  = open(PATH_BASE/f"{NAME_OF_DIR}.log", "w")
 print(
     f"Training the model [{MODEL_NAME}] with",
     f"* n_layers: {args.n_layers}",
