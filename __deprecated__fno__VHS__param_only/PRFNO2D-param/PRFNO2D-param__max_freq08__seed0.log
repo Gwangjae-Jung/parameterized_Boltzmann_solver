@@ -1,0 +1,14 @@
+Training the model [PRFNO2D-param] with
+* n_layers: 4
+* max_freq: 8
+* Random seed: 0
+* The device to be used: NVIDIA RTX A5000 (cuda:1)
+
+The size of the training dataset    >>> 3000
+The shape of the training dataset   >>> [3000, 51, 32, 32, 1]
+The size of the validation dataset  >>> 600
+The shape of the validation dataset >>> [600, 51, 32, 32, 1]
+
+The number of the parameters in the models >>> 1108256
+
+tensor(1078.1932, device='cuda:1', grad_fn=<LinalgVectorNormBackward0>) tensor(nan, device='cuda:1', grad_fn=<LinalgVectorNormBackward0>)

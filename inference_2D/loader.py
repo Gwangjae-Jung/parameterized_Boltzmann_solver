@@ -1,7 +1,7 @@
 import  torch
 from    pathlib     import  Path
 from    typing      import  Any, TypeAlias, Literal, Union
-from    deep_numerical.neural.operator  import  ModifiedFNO, ModifiedRFNO, PFNO, PRFNO
+from    deep_numerical.neural.parameterized_op  import  ModifiedFNO, ModifiedRFNO, PFNO, PRFNO
 
 
 __all__: list[str] = ['ModelKeys', 'load_model_data', 'path_of_state_dict']

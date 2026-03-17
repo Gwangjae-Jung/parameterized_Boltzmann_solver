@@ -1,16 +1,0 @@
-Random seed: 0
-* The device to be used >>> cuda:2
-The size of the training dataset >>> 3000
-The shape of the training dataset >>> torch.Size([3000, 51, 32, 32, 1])
-The size of the validation dataset >>> 600
-The shape of the validation dataset >>> torch.Size([600, 51, 32, 32, 1])
-The number of the parameters in the models
->>> 167105
-  0%|          | 0/1000 [00:00<?, ?it/s]
-[ Epoch 1 / 1000 | coeff_cons: 0.0000e+00 , lr: 9.7553e-05]
-# Best model: epoch 1 (2.2424e-02 | 2.1508e-01)
-* [train] Relative error: 6.6963e-02 | 9.6224e-01
-* [valid] Relative error: 2.2424e-02 | 2.1508e-01
-
-
-  0%|          | 1/1000 [02:26<40:47:31, 147.00s/it]

@@ -228,7 +228,7 @@ class CustomParser():
             'n_layers':         self.n_layers,
             'project_layer':    self.project_layer,
             'activation_name':  self.activation_name,
-            'pos_enc':          self.pos_enc,
+            'bias':             False,
         }
         if model_name.lower() == 'fno':
             base_config['n_modes']          = self.n_modes
