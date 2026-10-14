@@ -20,7 +20,7 @@ DataKeys:   TypeAlias = Literal["state_dict", "normalizer", "train_history"]
 NormKeys:   TypeAlias = Literal["data", "params"]
 HistKeys:   TypeAlias = Literal["train_rel_error", "train_rel_error_cons", "val_rel_error", "val_rel_error_cons", "train_time"]
 ModelTypes: TypeAlias = Union[ModifiedFNO, ModifiedRFNO, PFNO, PRFNO]
-path_base = Path(r"/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver")
+path_base = _ROOT
 
 
 ##################################################

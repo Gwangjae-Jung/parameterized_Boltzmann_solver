@@ -1,3 +1,4 @@
+from pathlib import Path
 #####< Modifiable options for ablation study >#####
 DIMENSION       = 2
 SET_MAX_FREQ    = [8, 10, 12]
@@ -22,10 +23,11 @@ coeff = dimention_to_coefficient()
 RESOLUTION_TRAIN    = 32
 RESOLUTION_VAL      = 32
 RESOLUTION_TEST     = 64
+_BASE_DIR = Path(__file__).resolve().parent
 PATH_TRAIN          = \
-    rf"/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/datasets/train/Boltzmann_{DIMENSION}D__coeff{coeff:.2e}__res_t051_v{str(RESOLUTION_TRAIN).zfill(3)}"
+    str(_BASE_DIR / "datasets" / "train" / f"Boltzmann_{DIMENSION}D__coeff{coeff:.2e}__res_t051_v{str(RESOLUTION_TRAIN).zfill(3)}")
 PATH_VAL            = \
-    rf"/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/datasets/validation/Boltzmann_{DIMENSION}D__coeff{coeff:.2e}__res_t051_v{str(RESOLUTION_VAL).zfill(3)}"
+    str(_BASE_DIR / "datasets" / "validation" / f"Boltzmann_{DIMENSION}D__coeff{coeff:.2e}__res_t051_v{str(RESOLUTION_VAL).zfill(3)}")
 EXP_SPEED           = [0.0, 0.25, 0.5, 0.75, 1.0]
 TRAIN_PART          = list(range(1, 11))    # 1~10
 VAL_PART            = list(range(11, 13))   # 11~12

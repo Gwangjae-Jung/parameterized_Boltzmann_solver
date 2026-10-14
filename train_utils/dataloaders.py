@@ -45,6 +45,12 @@ def load_data(
     
     if not isinstance(directory, Path):
         directory = Path(directory)
+    if not directory.exists() and "/datasets/" in str(directory):
+        sub = str(directory).split("/datasets/")[-1]
+        _proj_root = Path(__file__).resolve().parent.parent
+        fallback = _proj_root / "datasets" / sub
+        if fallback.exists():
+            directory = fallback
 
     def _get_file_name(res: int, a: float, p: int) -> str:
         # res = str(res).zfill(3)

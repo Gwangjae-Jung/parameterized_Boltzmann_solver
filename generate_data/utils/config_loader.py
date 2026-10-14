@@ -53,7 +53,16 @@ class ConfigLoader():
         self.__exp_speed:   list[float] = dataset['exp_speed']
         self.__exp_angle:   list[float] = dataset['exp_angle']
         
-        self.__storage      = Path(dataset['storage'])
+        storage_val = str(dataset['storage'])
+        if "/datasets/" in storage_val:
+            sub = storage_val.split("/datasets/")[-1]
+            _proj_root = Path(__file__).resolve().parent.parent.parent
+            self.__storage = _proj_root / "datasets" / sub
+        elif not Path(storage_val).is_absolute():
+            _proj_root = Path(__file__).resolve().parent.parent.parent
+            self.__storage = _proj_root / storage_val
+        else:
+            self.__storage = Path(storage_val)
         self.__storage.mkdir(parents=True, exist_ok=True)
         self.__log_name     = f"log__{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
         return
