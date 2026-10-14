@@ -28,7 +28,7 @@ class ConfigLoader():
 
     def load_config(self) -> None:
         from    datetime    import  datetime
-        from    deep_numerical.numerical.solver.constants   import  LAMBDA
+        from    core.numerical.solver.constants   import  LAMBDA
         computation = self.__config['computation']
         dataset     = self.__config['dataset']
         

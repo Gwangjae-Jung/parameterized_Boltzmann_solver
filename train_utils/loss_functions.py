@@ -4,7 +4,7 @@ import  torch
 from    sys         import  path    as  sys_path
 from    pathlib     import  Path
 sys_path.append(str(Path(__file__).parent))
-from    deep_numerical.utils        import  velocity_grid, relative_error
+from    core.utils        import  velocity_grid, relative_error
 
 
 ##################################################

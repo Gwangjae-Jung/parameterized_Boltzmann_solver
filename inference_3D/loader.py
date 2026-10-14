@@ -1,10 +1,17 @@
-import  torch
+import  sys
 from    pathlib     import  Path
 from    typing      import  Any, TypeAlias, Literal, Union
-from    deep_numerical.neural.parameterized_op  import  ModifiedFNO, ModifiedRFNO, PFNO, PRFNO
+
+_ROOT = Path(__file__).resolve().parent.parent
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
+
+import  torch
+from    core.neural.parameterized_op    import  ModifiedFNO, ModifiedRFNO, PFNO, PRFNO
 
 
-__all__: list[str] = ['ModelKeys', 'load_model_data', 'path_of_state_dict']
+
+__all__: list[str] = ['ModelKeys', 'load_model_data', 'path_of_model', 'path_of_state_dict']
 
 
 ##################################################
@@ -70,6 +77,9 @@ def load_model_args(
 def path_of_model(model_key: ModelKeys, max_freq: int, seed: int) -> Path:
     """Returns the *path* of the model-related data. This data contains the trained parameters, normalizer, and training history."""
     return path_base / "fno__VHS__param_only" / model_key /  f"{model_key}__max_freq{max_freq:02d}__seed{seed}"
+
+
+path_of_state_dict = path_of_model
     
 
 def load_model_data(model_key: ModelKeys, max_freq: int, seed: int) -> dict[DataKeys, Any]:

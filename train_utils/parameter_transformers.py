@@ -32,7 +32,7 @@ def params_as_power(
         resolution:         int,
         v_max:              torch.Tensor,
     ) -> torch.Tensor:
-    from    deep_numerical.utils    import  velocity_grid
+    from    core.utils    import  velocity_grid
     s_grid = velocity_grid(
         dimension, resolution, v_max, where_closed='none',
         dtype   = params.dtype,

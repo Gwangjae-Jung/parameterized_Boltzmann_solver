@@ -1,7 +1,7 @@
 from    typing                  import  TypeAlias, Literal
 import  torch
 from    torch.utils.data        import  TensorDataset
-from    deep_numerical.utils    import  GaussianNormalizer
+from    core.utils    import  GaussianNormalizer
 
 
 NormKeys:   TypeAlias = Literal["data", "params"]

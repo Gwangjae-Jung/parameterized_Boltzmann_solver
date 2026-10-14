@@ -2,21 +2,22 @@
 # Import libraries
 ##################################################
 import  sys
+import  time
+from    copy                import  deepcopy
+from    pathlib             import  Path
 from    typing              import  Union
 
-import  time
-from    pathlib             import  Path
-from    copy                import  deepcopy
+_ROOT = Path(__file__).resolve().parent.parent
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
 
 import  numpy       as  np
 import  torch
 from    torch.utils.data            import  TensorDataset, DataLoader
 
-from    deep_numerical.utils        import  get_time_str
-from    deep_numerical.utils        import  GaussianNormalizer
-from    deep_numerical.neural.utils import  count_parameters, initialize_weights
-from    deep_numerical.utils        import  relative_error
-from    deep_numerical.neural.operator      import  ModifiedRFNO
+from    core.neural.operator        import  ModifiedRFNO
+from    core.neural.utils           import  count_parameters, initialize_weights
+from    core.utils                  import  GaussianNormalizer, get_time_str, relative_error
 
 from    train_utils         import  load_data, exponential_cosine
 from    train_utils         import  LossFunctions

@@ -296,8 +296,8 @@ class WeightedDataset(torch.utils.data.Dataset):
         # Prior configuration
         if self.__weighting_criterion is None:
             return
-        from    deep_numerical.utils        import  velocity_grid, relative_error
-        from    deep_numerical.numerical    import  distribution    as  D
+        from    core.utils        import  velocity_grid, relative_error
+        from    core.numerical    import  distribution    as  D
         
         # Shape-related atributes
         old_shape = tuple(self.__data.shape)

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/fno__VHS__param_only/train__fno_param.py", line 19, in <module>
-  File "/media/junseung/47a90e46-3a9d-467c-bbee-066752b68532/GWANGJAE/parameterized_Boltzmann_solver/fno__VHS__param_only/train__rfno_param.py", line 19, in <module>
-    from    deep_numerical.neural.operator  import  ModifiedFNO
-    from    deep_numerical.neural.operator      import  ModifiedRFNO
-ImportError: cannot import name 'ModifiedRFNO' from 'deep_numerical.neural.operator' (/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/neural/operator/__init__.py)
-ImportError: cannot import name 'ModifiedFNO' from 'deep_numerical.neural.operator' (/home/junseung/.local/lib/python3.12/site-packages/deep_numerical/neural/operator/__init__.py)

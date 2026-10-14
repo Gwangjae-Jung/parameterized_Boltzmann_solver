@@ -4,14 +4,20 @@
 from    typing      import  Callable
 import  sys
 import  argparse
+from    pathlib     import  Path
 from    shutil      import  copyfile
 from    time        import  time
+
+_ROOT = Path(__file__).resolve().parent.parent
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
+
 import  torch
 
-from    deep_numerical.utils    import  velocity_grid
-from    deep_numerical.numerical   import  distribution
-from    deep_numerical.numerical.math   import  area_of_unit_sphere
-from    deep_numerical.numerical.solver     import  FastSM_Boltzmann_VHS, one_step_RK4_classic
+from    core.numerical              import  distribution
+from    core.numerical.math         import  area_of_unit_sphere
+from    core.numerical.solver       import  FastSM_Boltzmann_VHS, one_step_RK4_classic
+from    core.utils                  import  velocity_grid
 
 from    utils   import  ConfigLoader, sample_quantities, normalize_density
 
